@@ -20,8 +20,7 @@ export const methods = (state) => ({
   endCallingApi() {
     state.isApiInProgress = false;
   },
-  openConnectToWallet(afterOnboardingUrl) {
-    state.afterOnboardingUrl = afterOnboardingUrl;
+  openConnectToWallet() {
     state.isWalletModalOpen = true;
   },
   onWalletModalClose() {
