@@ -21,9 +21,9 @@ const NFT_STORAGE_KEY =
 const APIURL = "https://api-mumbai.lens.dev/";
 
 const PROJECT_OWNER_ADDRESS = "0x7A4D89DE9d662c5949B31Ad5ae63195D101E7E1C";
-const PROJECT_OWNER_PROFILE_HANDLE = "bankless1";
-const PROJECT_OWNER_PROFILE_ID = "0xf3";
-const PROJECT_LENS_PUBLICATION_ID = "0x0b";
+const PROJECT_OWNER_PROFILE_HANDLE = "bankless2";
+const PROJECT_OWNER_PROFILE_ID = "0x011a";
+const PROJECT_LENS_PUBLICATION_ID = "0x01";
 const PROJECT_IPFS_URI =
   "https://ipfs.io/ipfs/bafyreig2d6p3b6atorjhjv62uoxx6zuei55unyz5s54ixehx4arnct2ydq/metadata.json";
 const PROJECT_OWNER_ADDRESS_PRIVATE_KEY =
@@ -165,14 +165,14 @@ const createProfile = async (address, handle) => {
         profilePictureUri: null,
         followNFTURI: null,
         followModule: {
-          // emptyFollowModule: true,
-          feeFollowModule: {
-            amount: {
-              currency: "0x3C68CE8504087f89c640D02d133646d98e64ddd9",
-              value: "0.01",
-            },
-            recipient: address,
-          },
+          emptyFollowModule: true,
+          // feeFollowModule: {
+          //   amount: {
+          //     currency: "0x3C68CE8504087f89c640D02d133646d98e64ddd9",
+          //     value: "0.01",
+          //   },
+          //   recipient: address,
+          // },
         },
         // followModule: {
         //   feeFollowModule: {

@@ -1,7 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
 import "isomorphic-unfetch";
-const PROJECT_OWNER_PROFILE_ID = "0xf3";
+const PROJECT_OWNER_PROFILE_ID = "0x011a";
 import { createClient, gql } from "@urql/core";
 const APIURL = "https://api-mumbai.lens.dev/";
 

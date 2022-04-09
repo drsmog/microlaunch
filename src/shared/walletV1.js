@@ -49,14 +49,11 @@ export const useWallet = () => {
 
   const followProfileForFree = async () => {
     try {
-      // const result = await contract.functions.symbol();
-      const result = await lensContract.functions.follow([225], [[]]);
-      console.log(result);
+      const result = await lensContract.functions.follow([282], [[]]);
       return result;
     } catch (error) {
       console.log(error);
     }
-    console.log("follow");
   };
 
   const followProfile = async () => {
