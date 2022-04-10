@@ -23,9 +23,9 @@ const APIURL = "https://api-mumbai.lens.dev/";
 const PROJECT_OWNER_ADDRESS = "0x7A4D89DE9d662c5949B31Ad5ae63195D101E7E1C";
 const PROJECT_OWNER_PROFILE_HANDLE = "bankless2";
 const PROJECT_OWNER_PROFILE_ID = "0x011a";
-const PROJECT_LENS_PUBLICATION_ID = "0x01";
+const PROJECT_LENS_PUBLICATION_ID = "0x02";
 const PROJECT_IPFS_URI =
-  "https://ipfs.io/ipfs/bafyreig2d6p3b6atorjhjv62uoxx6zuei55unyz5s54ixehx4arnct2ydq/metadata.json";
+  "https://ipfs.io/ipfs/bafyreicu4hja5upzb53nip7rpprnjm4dehvvzetm6i3njysssn5cbuku3y/metadata.json";
 const PROJECT_OWNER_ADDRESS_PRIVATE_KEY =
   "a544578cc0e6977f9d15e1b71e74dbc58edd512e12bef701b6cc49d3351582c7";
 

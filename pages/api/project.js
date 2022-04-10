@@ -9,7 +9,7 @@ const LENS_HUB_CONTRACT = "0x4BF0c7AD32Fd2d32089790a54485e23f5C7736C0";
 const PROJECT_OWNER_ADDRESS_PRIVATE_KEY =
   "a544578cc0e6977f9d15e1b71e74dbc58edd512e12bef701b6cc49d3351582c7";
 const PROJECT_OWNER_PROFILE_ID = "0x011a";
-const PROJECT_LENS_PUBLICATION_ID = "0x01";
+const PROJECT_LENS_PUBLICATION_ID = "0x02";
 const ethersProvider = new ethers.providers.JsonRpcProvider(
   "https://rpc-mumbai.maticvigil.com"
 );
