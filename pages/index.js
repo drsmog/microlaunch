@@ -65,7 +65,7 @@ export default function Home() {
         methods.openConnectToWallet();
         return;
       }
-      // const res = await wallet.followProfileForFree();
+      const res = await wallet.followProfileForFree();
       addAddressInFollowers(state.currentAddress);
     } catch (error) {
       errorHandler(error, ["Main Page"]);
