@@ -46,8 +46,6 @@ export default function ProfileMenu({ ...props }) {
             minW="32px"
             minH="32px"
             mr="10px"
-            pt="1px"
-            pb="1px"
           />
 
           <FontAwesomeIcon icon={faBars} color={"black"} size="sm" />
@@ -82,8 +80,6 @@ export default function ProfileMenu({ ...props }) {
                 h="32px"
                 minW="32px"
                 minH="32px"
-                pt="1px"
-                pb="1px"
               />
             </Box>
             <Link isExternal={false} href="/">

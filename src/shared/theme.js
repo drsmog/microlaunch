@@ -18,9 +18,8 @@ const theme = extendTheme({
   styles: {
     global: {
       "html, body": {
-        backgroundColor: "#FCFCFC",
+        backgroundColor: "#282828",
         fontFamily: `"freigeist", sans-serif`,
-        fontSize: "14.4px",
       },
     },
   },

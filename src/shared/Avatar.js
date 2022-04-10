@@ -2,7 +2,11 @@ import { Image, chakra, Tooltip, Link } from "@chakra-ui/react";
 import Blockies from "react-blockies";
 const BlockiesChakra = chakra(Blockies);
 
-const Avatar = ({ address, ...props }) => {
+const Avatar = ({ address, hasHoverEffect = false, ...props }) => {
+  const hoverEffectStyle = {
+    transition: "all .2s ease-in-out",
+    _hover: { transform: "scale(1.4)" },
+  };
   return (
     <Image
       borderRadius={"50%"}
@@ -18,9 +22,11 @@ const Avatar = ({ address, ...props }) => {
           scale={4}
           className="avatar"
           {...props}
+          {...(hasHoverEffect && hoverEffectStyle)}
         />
       }
       {...props}
+      {...(hasHoverEffect && hoverEffectStyle)}
     />
   );
 };

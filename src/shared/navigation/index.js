@@ -39,7 +39,11 @@ export default function NavigationBar({ ...props }) {
             minW={"135px"}
             ml="10px"
           >
-            <Text color={"white"} fontSize="48px" fontWeight={700}>
+            <Text
+              color={"white"}
+              fontSize={["36px", "36px", "48px"]}
+              fontWeight={700}
+            >
               MicroLaunch
             </Text>
           </Box>
